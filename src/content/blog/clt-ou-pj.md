@@ -95,10 +95,6 @@ Contribuição mensal para FGTS é 8% do salário bruto, com uma taxa de rendime
 
 Comparando os valores futuros acumulados em diferentes cenários de salários, podemos observar que a opção PJ, investindo 70% da diferença salarial mensal, proporciona um valor acumulado significativamente maior após 10 anos, em comparação com o FGTS no regime CLT. Esta análise reflete a vantagem potencial do regime PJ em termos de acúmulo de riqueza a longo prazo, desde que haja disciplina financeira e investimentos adequados.
 
-### Chamado à Ação
-
-Se você gostou deste conteúdo, não esqueça de deixar seu comentário abaixo e compartilhar suas experiências. Se você está assistindo a este vídeo no YouTube, inscreva-se no canal, curta e compartilhe com quem pode se beneficiar dessas informações. Até a próxima!
-
 ---
 
-Este conteúdo foi criado para ajudar você a tomar uma decisão informada sobre seu futuro profissional. Lembre-se sempre de considerar todas as variáveis antes de fazer sua escolha.
+<small>Este conteúdo foi criado para ajudar você a tomar uma decisão informada sobre seu futuro profissional. Lembre-se sempre de considerar todas as variáveis antes de fazer sua escolha.</small>
