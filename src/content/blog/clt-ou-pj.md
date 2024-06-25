@@ -31,19 +31,102 @@ Outro aspecto importante é a segurança e estabilidade. A CLT oferece mais segu
 
 ## Exemplo Prático
 
-Vamos considerar um cenário onde um profissional tem duas ofertas:
+Vamos considerar um cenário onde um profissional tem duas ofertas. Neste exemplo, o profissional precisa decidir entre um emprego com um salário bruto de R$ 5.000 sob o regime CLT e uma oferta de R$ 7.000 mensais como PJ. A escolha entre essas duas opções envolve analisar não apenas o salário bruto, mas também os benefícios e custos associados a cada regime.
 
-- **CLT**: Salário de R$ 5.000 a R$ 10.000 mensais
-- **PJ**: Remuneração de R$ 7.500 a R$ 14.995 mensais
+- **CLT**: Salário de R$ 5.000
+- **PJ**: Remuneração de R$ 7.000
 
 ### Análise Financeira
 
-1. **Salário Líquido CLT**
+#### Salário Líquido CLT
 
-   - Salário bruto CLT menos descontos de INSS e IRRF.
+Para calcular o salário líquido de um funcionário CLT com um salário bruto de R$ 7.000, precisamos considerar os principais descontos que ocorrem na folha de pagamento. Esses descontos geralmente incluem o INSS (Instituto Nacional do Seguro Social) e o IRRF (Imposto de Renda Retido na Fonte).
 
-2. **Salário Líquido PJ**
-   - Salário bruto PJ menos impostos (6%), despesas contábeis, benefícios e INSS sobre pró-labore.
+**Desconto do INSS**
+
+A tabela do INSS vigente para 2024 é progressiva e possui as seguintes faixas:
+
+- Até R$ 1.320,00: 7,5%
+- De R$ 1.320,01 até R$ 2.571,29: 9%
+- De R$ 2.571,30 até R$ 3.856,94: 12%
+- De R$ 3.856,95 até R$ 7.507,49: 14%
+
+Vale lembrar que as etapas são progressivas, por isso o cálculo do INSS seria:
+
+- 7,5% de R$ 1.320,00 = R$ 99,00
+- 9% de R$ 1.251,29 (R$ 2.571,29 - R$ 1.320,00) = R$ 112,62
+- 12% de R$ 1.285,65 (R$ 3.856,94 - R$ 2.571,29) = R$ 154,28
+- 14% de R$ 3.143,06 (R$ 7.000,00 - R$ 3.856,94) = R$ 440,03
+
+**Desconto do IRRF**
+
+Até R$ 1.903,98: isento
+De R$ 1.903,99 até R$ 2.826,65: 7,5% (dedução de R$ 142,80)
+De R$ 2.826,66 até R$ 3.751,05: 15% (dedução de R$ 354,80)
+De R$ 3.751,06 até R$ 4.664,68: 22,5% (dedução de R$ 636,13)
+Acima de R$ 4.664,68: 27,5% (dedução de R$ 869,36)
+
+**Salário Líquido**
+
+Logo, para um salário de R$ 5.000, após o desconto do INSS, a base de cálculo do IRRF é:
+
+R$ 5.000 - R$ 525,93 = R$ 4.474,07
+
+Aplicando a alíquota de 22,5% e a dedução de R$ 636,13, temos:
+
+IRRF: (22,5% de R$ 4.474,07) - R$ 636,13 = R$ 1.006,67 - R$ 636,13 = R$ 370,54
+
+Finalmente, o salário líquido é calculado subtraindo os descontos de INSS e IRRF do salário bruto:
+
+Salário Líquido = R$ 5.000 - R$ 525,93 (INSS) - R$ 370,54 (IRRF) = R$ 4.103,53
+
+#### Salário Líquido PJ
+
+Para calcular o salário líquido de um profissional PJ é necessário levar em conta alguns fatores como por exemplo o fato de ser MEI ou não, porque como MEI, os impostos a serem pagos são simplificados e possuem valores fixos mensais.
+
+Os impostos para o MEI são pagos através do Documento de Arrecadação do Simples Nacional (DAS-MEI), que inclui:
+
+- INSS: 5% do salário mínimo (atualmente R$ 66,00, considerando um salário mínimo de R$ 1.320,00 em 2024).
+- ISS (Imposto sobre Serviços): R$ 5,00 fixos mensais, se a atividade for de prestação de serviços.
+- ICMS (Imposto sobre Circulação de Mercadorias e Serviços): R$ 1,00 fixo mensal, se a atividade envolver comércio e/ou indústria.
+
+Como estamos considerando que o profissional presta serviços, os impostos mensais seriam:
+
+Impostos totais: R$ 66,00 + R$ 5,00 = R$ 71,00
+
+Agora, caso seu contrato ultrapasse os limites estipulados pelo MEI a coisa funciona um pouco diferente.
+
+**O Conceito de Fator R**
+
+O fator R é utilizado no Simples Nacional para determinar a alíquota aplicável ao Anexo III ou ao Anexo V. Ele é calculado dividindo a folha de pagamento (incluindo pró-labore, encargos e contribuições) pelos últimos 12 meses de receita bruta. Se o fator R for igual ou superior a 28%, a empresa poderá ser tributada pelo Anexo III, que possui alíquotas menores. Se for inferior a 28%, será tributada pelo Anexo V, com alíquotas maiores.
+
+Considerando, como dissemos anteriormente, que essa modalidade de contratação é comum em setores como tecnologia, consultoria, e áreas criativas. Estipulando o seu pró-labore em 28% do faturamento você consegue manter sua alíquota de imposto em 6% (ou até menos caso ofereça serviços pra fora do país).
+
+**Cálculo dos Impostos**
+
+Como nosso exemplo é de um "salário" de R$ 7.000,00, a empresa está no Simples Nacional e aplicamos a alíquota de 6%.
+
+Impostos = 0.06 × R$ 7.000,00 = R$ 420,00
+
+A contribuição para o INSS sobre o pró-labore de R$ 2.800 (28% do faturamento) é de 11%.
+
+INSS sobre Pró-labore = 0.11 × R$ 2.800,00 = R$ 308,00
+
+**Despesas Adicionais**
+
+Por não se enquadrar mais no MEI, é obrigatório que a empresa tenha um contador. Você pode escolher diversas opções de contabilidade on-line, por exemplo, que tem um custo bem mais reduzido.
+
+Despesas Contábeis = R$ 175
+
+Nessa categoria também entram outros valores que costumam ser benefício em contratos CLT como VR/VA/VT e plano de saúde/odondológico.
+
+Vale Refeição (VR) = R$ 660,00
+Vale Transporte (VT) = R$ 193,60
+Plano de Saúde = R$ 410,00
+
+**Salário Líquido**
+
+TO-DO: Detalhar mais sobre férias e 13
 
 ### Investimento da Diferença
 
